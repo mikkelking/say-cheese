@@ -1,4 +1,4 @@
-Say Cheese!
+Say Cheese! - WORK IN PROGRESS - NOT WORKING YET
 ===========
 A minimal library for integrating webcam snapshots into your app. It uses `getUserMedia`, a recent API for
 accessing audio and video in the browser.
