@@ -1,0 +1,18 @@
+Package.describe({
+	summary:  "say-cheese - plugin for Meteor",
+	version: '1.0.0',
+	name: "mikkelking:say-cheese",
+	git: 'https://github.com/mikkelking/say-cheese'
+});
+
+Package.onUse(function (api) {
+	api.versionsFrom("METEOR@1.1.0.3");
+    api.addFiles('lib/say-cheese.js', "client");
+    api.addFiles('lib/main.js', "client");
+	api.export('SayCheese', 'client');
+});
+
+Package.onTest(function (api) {
+	api.use(['mikkelking:say-cheese', 'tinytest'], ['client']);
+	api.add_files('test.js', ['client']);
+});
