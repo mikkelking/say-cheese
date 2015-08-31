@@ -7,12 +7,14 @@ Package.describe({
 
 Package.onUse(function (api) {
 	api.versionsFrom("METEOR@1.1.0.3");
+	api.use('jquery', 'client');
     api.addFiles('lib/say-cheese.js', "client");
     api.addFiles('lib/main.js', "client");
-	api.export('SayCheese', 'client');
+	api.export('SayCheese', 'client');  
 });
 
 Package.onTest(function (api) {
+	api.use('jquery', 'client');
 	api.use(['mikkelking:say-cheese', 'tinytest'], ['client']);
 	api.add_files('test.js', ['client']);
 });
