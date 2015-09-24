@@ -16,5 +16,5 @@ Package.onUse(function (api) {
 Package.onTest(function (api) {
 	api.use('jquery', 'client');
 	api.use(['mikkelking:say-cheese', 'tinytest'], ['client']);
-	api.add_files('test.js', ['client']);
+	api.addFiles('test.js', ['client']);
 });
