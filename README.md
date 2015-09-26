@@ -7,3 +7,5 @@ accessing audio and video in the browser.
 
 A demo app is available at https://github.com/mikkelking/cheese-test
 
+Tested with Meteor 1.2
+
