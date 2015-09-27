@@ -1,6 +1,6 @@
 Package.describe({
 	summary:  "say-cheese - plugin for Meteor",
-	version: '1.0.1',
+	version: '1.0.2',
 	name: "mikkelking:say-cheese",
 	git: 'https://github.com/mikkelking/say-cheese'
 });
